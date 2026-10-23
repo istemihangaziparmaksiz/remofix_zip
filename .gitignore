@@ -1,0 +1,17 @@
+# Build & Output Folders
+[Bb]in/
+[Oo]bj/
+publish/
+remofix_zip_download/
+*.exe
+*.dll
+*.pdb
+*.tmp
+
+# Visual Studio & IDE
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
