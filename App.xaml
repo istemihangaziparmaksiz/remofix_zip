@@ -64,18 +64,18 @@
             <Geometry x:Key="GeoCpu">M4 4h16v16H4z M9 9h6v6H9z M9 1v3 M15 1v3 M9 20v3 M15 20v3 M20 9h3 M20 14h3 M1 9h3 M1 14h3</Geometry>
             <Geometry x:Key="GeoDownload">M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4 M7 10l5 5 5-5 M12 15V3</Geometry>
             <Geometry x:Key="GeoLink">M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71 M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71</Geometry>
-            <Geometry x:Key="GeoFolder">M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z</Geometry>
-            <Geometry x:Key="GeoFolderOpen">M2 9v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-7l-2-2H4a2 2 0 0 0-2 2z</Geometry>
-            <Geometry x:Key="GeoFile">M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z M13 2v7h7</Geometry>
+            <Geometry x:Key="GeoFolder">M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2z</Geometry>
+            <Geometry x:Key="GeoFolderOpen">M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2z M2 10h20</Geometry>
+            <Geometry x:Key="GeoFile">M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7l-5-5z M14 2v4a2 2 0 0 0 2 2h4</Geometry>
             <Geometry x:Key="GeoLock">M5 11h14a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2z M7 11V7a5 5 0 0 1 10 0v4</Geometry>
-            <Geometry x:Key="GeoGlobe">M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20z M2 12h20 M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z</Geometry>
+            <Geometry x:Key="GeoGlobe">M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20z M2 12h20 M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20z</Geometry>
             <Geometry x:Key="GeoRefresh">M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8 M3 3v5h5 M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16 M16 16h5v5</Geometry>
             <Geometry x:Key="GeoArrowLeft">M19 12H5 M12 19l-7-7 7-7</Geometry>
             <Geometry x:Key="GeoArrowRight">M5 12h14 M12 5l7 7-7 7</Geometry>
-            <Geometry x:Key="GeoHome">M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z</Geometry>
+            <Geometry x:Key="GeoHome">M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z M9 22V12h6v10</Geometry>
             <Geometry x:Key="GeoCheck">M20 6L9 17l-5-5</Geometry>
             <Geometry x:Key="GeoClose">M18 6L6 18 M6 6l12 12</Geometry>
-            <Geometry x:Key="GeoFolderCheck">M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z M9 14l2 2 4-4</Geometry>
+            <Geometry x:Key="GeoFolderCheck">M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2z M9 13l2 2 4-4</Geometry>
             <Geometry x:Key="GeoTrash">M3 6h18 M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6 M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2 M10 11v6 M14 11v6</Geometry>
 
             <!-- ========================================================================= -->
@@ -319,16 +319,21 @@
                         <ControlTemplate TargetType="ToggleButton">
                             <Border Background="Transparent" Width="16" Height="16">
                                 <Path x:Name="ExpandPath"
-                                      Fill="{DynamicResource TextMutedBrush}"
-                                      Data="M6 4l4 4-4 4"
+                                      Fill="Transparent"
+                                      Data="M9 18l6-6-6-6"
                                       Stroke="{DynamicResource TextMutedBrush}"
-                                      StrokeThickness="1.5"
+                                      StrokeThickness="1.6"
+                                      StrokeStartLineCap="Round"
+                                      StrokeEndLineCap="Round"
+                                      StrokeLineJoin="Round"
+                                      Stretch="Uniform"
+                                      Width="7" Height="7"
                                       HorizontalAlignment="Center"
                                       VerticalAlignment="Center" />
                             </Border>
                             <ControlTemplate.Triggers>
                                 <Trigger Property="IsChecked" Value="True">
-                                    <Setter TargetName="ExpandPath" Property="Data" Value="M4 6l4 4 4-4" />
+                                    <Setter TargetName="ExpandPath" Property="Data" Value="M6 9l6 6 6-6" />
                                     <Setter TargetName="ExpandPath" Property="Stroke" Value="{DynamicResource TextSecondaryBrush}" />
                                 </Trigger>
                                 <Trigger Property="IsMouseOver" Value="True">

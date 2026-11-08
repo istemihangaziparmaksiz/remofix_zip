@@ -103,8 +103,13 @@
                         <StackPanel Orientation="Horizontal">
                             <Path Data="{StaticResource GeoLayers}"
                                   Width="16" Height="16"
+                                  Stretch="Uniform"
                                   Stroke="{Binding Path=Foreground, RelativeSource={RelativeSource AncestorType=RadioButton}}"
                                   StrokeThickness="1.7"
+                                  StrokeStartLineCap="Round"
+                                  StrokeEndLineCap="Round"
+                                  StrokeLineJoin="Round"
+                                  SnapsToDevicePixels="True"
                                   VerticalAlignment="Center"
                                   Margin="0,0,10,0" />
                             <TextBlock Text="ZIP Gezgini" VerticalAlignment="Center" />
@@ -118,8 +123,13 @@
                         <StackPanel Orientation="Horizontal">
                             <Path Data="{StaticResource GeoGlobe}"
                                   Width="16" Height="16"
+                                  Stretch="Uniform"
                                   Stroke="{Binding Path=Foreground, RelativeSource={RelativeSource AncestorType=RadioButton}}"
                                   StrokeThickness="1.7"
+                                  StrokeStartLineCap="Round"
+                                  StrokeEndLineCap="Round"
+                                  StrokeLineJoin="Round"
+                                  SnapsToDevicePixels="True"
                                   VerticalAlignment="Center"
                                   Margin="0,0,10,0" />
                             <TextBlock Text="Dahili Tarayıcı" VerticalAlignment="Center" />
@@ -139,8 +149,13 @@
                             <Path Grid.Column="0"
                                   Data="{StaticResource GeoDownload}"
                                   Width="16" Height="16"
+                                  Stretch="Uniform"
                                   Stroke="{Binding Path=Foreground, RelativeSource={RelativeSource AncestorType=RadioButton}}"
                                   StrokeThickness="1.7"
+                                  StrokeStartLineCap="Round"
+                                  StrokeEndLineCap="Round"
+                                  StrokeLineJoin="Round"
+                                  SnapsToDevicePixels="True"
                                   VerticalAlignment="Center"
                                   Margin="0,0,10,0" />
                             <TextBlock Grid.Column="1" Text="İndirmeler" VerticalAlignment="Center" />
@@ -163,8 +178,13 @@
                         <StackPanel Orientation="Horizontal">
                             <Path Data="{StaticResource GeoCpu}"
                                   Width="16" Height="16"
+                                  Stretch="Uniform"
                                   Stroke="{Binding Path=Foreground, RelativeSource={RelativeSource AncestorType=RadioButton}}"
                                   StrokeThickness="1.7"
+                                  StrokeStartLineCap="Round"
+                                  StrokeEndLineCap="Round"
+                                  StrokeLineJoin="Round"
+                                  SnapsToDevicePixels="True"
                                   VerticalAlignment="Center"
                                   Margin="0,0,10,0" />
                             <TextBlock Text="Ayarlar" VerticalAlignment="Center" />
@@ -250,7 +270,18 @@
                                 Click="BtnAnalyze_Click">
                             <StackPanel Orientation="Horizontal">
                                 <ui:ProgressRing x:Name="ringAnalyze" Width="16" Height="16" Margin="0,0,8,0" Visibility="Collapsed" IsActive="False" />
-                                <Path x:Name="icoAnalyze" Data="{StaticResource GeoSearch}" Stroke="#09090B" StrokeThickness="1.8" Width="14" Height="14" VerticalAlignment="Center" Margin="0,0,8,0" />
+                                <Path x:Name="icoAnalyze"
+                                      Data="{StaticResource GeoSearch}"
+                                      Stroke="#09090B"
+                                      StrokeThickness="1.8"
+                                      StrokeStartLineCap="Round"
+                                      StrokeEndLineCap="Round"
+                                      StrokeLineJoin="Round"
+                                      Stretch="Uniform"
+                                      Width="14" Height="14"
+                                      SnapsToDevicePixels="True"
+                                      VerticalAlignment="Center"
+                                      Margin="0,0,8,0" />
                                 <TextBlock Text="İçeriği Tara" VerticalAlignment="Center" FontWeight="SemiBold" />
                             </StackPanel>
                         </Button>
@@ -272,11 +303,31 @@
 
                         <StackPanel Grid.Column="0">
                             <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
-                                <Path Data="{StaticResource GeoFolderCheck}" Stroke="#34D399" StrokeThickness="1.8" Width="18" Height="18" Margin="0,0,8,0" VerticalAlignment="Center" />
+                                <Path Data="{StaticResource GeoFolderCheck}"
+                                      Stroke="#34D399"
+                                      StrokeThickness="1.8"
+                                      StrokeStartLineCap="Round"
+                                      StrokeEndLineCap="Round"
+                                      StrokeLineJoin="Round"
+                                      Stretch="Uniform"
+                                      Width="18" Height="18"
+                                      SnapsToDevicePixels="True"
+                                      Margin="0,0,8,0"
+                                      VerticalAlignment="Center" />
                                 <TextBlock x:Name="lblArchiveName" Text="archive.zip" FontWeight="Bold" FontSize="14.5" Foreground="{DynamicResource TextPrimaryBrush}" VerticalAlignment="Center" />
                                 <Border x:Name="badgeEncrypted" Background="#291503" BorderBrush="#78350F" BorderThickness="1" CornerRadius="4" Padding="6,2" Margin="10,0,0,0" Visibility="Collapsed">
                                     <StackPanel Orientation="Horizontal">
-                                        <Path Data="{StaticResource GeoLock}" Stroke="#FBBF24" StrokeThickness="1.8" Width="12" Height="12" VerticalAlignment="Center" Margin="0,0,4,0" />
+                                        <Path Data="{StaticResource GeoLock}"
+                                              Stroke="#FBBF24"
+                                              StrokeThickness="1.8"
+                                              StrokeStartLineCap="Round"
+                                              StrokeEndLineCap="Round"
+                                              StrokeLineJoin="Round"
+                                              Stretch="Uniform"
+                                              Width="12" Height="12"
+                                              SnapsToDevicePixels="True"
+                                              VerticalAlignment="Center"
+                                              Margin="0,0,4,0" />
                                         <TextBlock Text="Şifreli Arşiv" FontSize="10.5" FontWeight="SemiBold" Foreground="#FBBF24" VerticalAlignment="Center" />
                                     </StackPanel>
                                 </Border>
@@ -303,7 +354,16 @@
                         <!-- Başlangıç Boş Durum Bilgisi -->
                         <StackPanel x:Name="panelEmptyState" VerticalAlignment="Center" HorizontalAlignment="Center" Visibility="Visible">
                             <Border Width="64" Height="64" CornerRadius="12" Background="#141418" BorderBrush="#24242B" BorderThickness="1" HorizontalAlignment="Center" Margin="0,0,0,14">
-                                <Path Data="{StaticResource GeoLayers}" Stroke="{DynamicResource TextMutedBrush}" StrokeThickness="1.6" Width="28" Height="28" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                <Path Data="{StaticResource GeoLayers}"
+                                      Stroke="{DynamicResource TextMutedBrush}"
+                                      StrokeThickness="1.6"
+                                      StrokeStartLineCap="Round"
+                                      StrokeEndLineCap="Round"
+                                      StrokeLineJoin="Round"
+                                      Width="28" Height="28"
+                                      Stretch="Uniform"
+                                      HorizontalAlignment="Center"
+                                      VerticalAlignment="Center" />
                             </Border>
                             <TextBlock Text="İçerik Görüntülemek İçin Bir ZIP URL'si Girin" FontSize="15" FontWeight="SemiBold" Foreground="{DynamicResource TextPrimaryBrush}" HorizontalAlignment="Center" />
                             <TextBlock Text="Dosyanın tamamını indirmeden içindeki dosyaları listeleyip tek tek seçerek indirebilirsiniz."
@@ -339,7 +399,12 @@
                                               VerticalAlignment="Center"
                                               Margin="0,0,8,0"
                                               Width="16" Height="16"
-                                              StrokeThickness="1.6">
+                                              Stretch="Uniform"
+                                              StrokeThickness="1.6"
+                                              StrokeStartLineCap="Round"
+                                              StrokeEndLineCap="Round"
+                                              StrokeLineJoin="Round"
+                                              SnapsToDevicePixels="True">
                                             <Path.Style>
                                                 <Style TargetType="Path">
                                                     <Setter Property="Data" Value="{StaticResource GeoFile}" />
@@ -428,16 +493,56 @@
                         <!-- Navigasyon Butonları -->
                         <StackPanel Grid.Column="0" Orientation="Horizontal" Margin="0,0,12,0">
                             <Button Style="{StaticResource SecondaryActionButtonStyle}" Width="36" Height="36" Padding="0" Margin="0,0,6,0" Click="BtnBrowserBack_Click">
-                                <Path Data="{StaticResource GeoArrowLeft}" Stroke="{DynamicResource TextPrimaryBrush}" StrokeThickness="1.8" Width="14" Height="14" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                <Path Data="{StaticResource GeoArrowLeft}"
+                                      Stroke="{DynamicResource TextPrimaryBrush}"
+                                      StrokeThickness="1.8"
+                                      StrokeStartLineCap="Round"
+                                      StrokeEndLineCap="Round"
+                                      StrokeLineJoin="Round"
+                                      Stretch="Uniform"
+                                      Width="14" Height="14"
+                                      SnapsToDevicePixels="True"
+                                      HorizontalAlignment="Center"
+                                      VerticalAlignment="Center" />
                             </Button>
                             <Button Style="{StaticResource SecondaryActionButtonStyle}" Width="36" Height="36" Padding="0" Margin="0,0,6,0" Click="BtnBrowserForward_Click">
-                                <Path Data="{StaticResource GeoArrowRight}" Stroke="{DynamicResource TextPrimaryBrush}" StrokeThickness="1.8" Width="14" Height="14" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                <Path Data="{StaticResource GeoArrowRight}"
+                                      Stroke="{DynamicResource TextPrimaryBrush}"
+                                      StrokeThickness="1.8"
+                                      StrokeStartLineCap="Round"
+                                      StrokeEndLineCap="Round"
+                                      StrokeLineJoin="Round"
+                                      Stretch="Uniform"
+                                      Width="14" Height="14"
+                                      SnapsToDevicePixels="True"
+                                      HorizontalAlignment="Center"
+                                      VerticalAlignment="Center" />
                             </Button>
                             <Button Style="{StaticResource SecondaryActionButtonStyle}" Width="36" Height="36" Padding="0" Margin="0,0,6,0" Click="BtnBrowserRefresh_Click">
-                                <Path Data="{StaticResource GeoRefresh}" Stroke="{DynamicResource TextPrimaryBrush}" StrokeThickness="1.8" Width="14" Height="14" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                <Path Data="{StaticResource GeoRefresh}"
+                                      Stroke="{DynamicResource TextPrimaryBrush}"
+                                      StrokeThickness="1.8"
+                                      StrokeStartLineCap="Round"
+                                      StrokeEndLineCap="Round"
+                                      StrokeLineJoin="Round"
+                                      Stretch="Uniform"
+                                      Width="14" Height="14"
+                                      SnapsToDevicePixels="True"
+                                      HorizontalAlignment="Center"
+                                      VerticalAlignment="Center" />
                             </Button>
                             <Button Style="{StaticResource SecondaryActionButtonStyle}" Width="36" Height="36" Padding="0" Click="BtnBrowserHome_Click">
-                                <Path Data="{StaticResource GeoHome}" Stroke="{DynamicResource TextPrimaryBrush}" StrokeThickness="1.8" Width="14" Height="14" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                <Path Data="{StaticResource GeoHome}"
+                                      Stroke="{DynamicResource TextPrimaryBrush}"
+                                      StrokeThickness="1.8"
+                                      StrokeStartLineCap="Round"
+                                      StrokeEndLineCap="Round"
+                                      StrokeLineJoin="Round"
+                                      Stretch="Uniform"
+                                      Width="14" Height="14"
+                                      SnapsToDevicePixels="True"
+                                      HorizontalAlignment="Center"
+                                      VerticalAlignment="Center" />
                             </Button>
                         </StackPanel>
 
